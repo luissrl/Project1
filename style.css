@@ -29,6 +29,8 @@ img {
     color: #fff;
   }
 
+/* Igual que anterior. No entiendo bien el uso de transform: translate - Duda para Enric*/
+
   .centered2 {
     position: absolute;
     top: 35%;
@@ -39,6 +41,9 @@ img {
   }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 200px;
     width: 100%;
     background-color: #2F4F4F;
