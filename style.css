@@ -21,7 +21,28 @@ img {
 
 .container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
+
+.card1, .card2, .card3 {
+  height: 400px;
+  width: 350px;
+}
+
+/*
+.imagen_card1, .imagen_card2, .imagen_card3 {
+  height: 150px;
+}
+*/
+
+img {
+  height: 150px;
+}
+
+
 
 /* No entiendo bien el uso de transform: translate - Duda para Enric*/
 .centered {
