@@ -1,6 +1,13 @@
+* {
+  margin: 0px;
+}
+
 .cabecera {
 height: 400px;
 width: 100%;
+background-image: url(https://picsum.photos/id/350/1200/1200);
+background-position: center;
+background-size: cover;
 }
 
 img {
@@ -37,11 +44,6 @@ img {
   height: 150px;
 }
 */
-
-img {
-  height: 150px;
-}
-
 
 
 /* No entiendo bien el uso de transform: translate - Duda para Enric*/
