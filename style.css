@@ -3,6 +3,9 @@
 }
 
 .cabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 400px;
   width: 100%;
   background-image: url(https://picsum.photos/id/350/1200/1200);
@@ -21,10 +24,14 @@ img {
   align-items: center;
   height: 60px;
   width: 100%;
-  font-family: Nunito;
   background-color: purple;
+}
+
+.nav_element {
+  font-family: Nunito;
   color: #fff;
 }
+
 
 .container {
   width: 100%;
@@ -33,70 +40,23 @@ img {
   padding: 30px;
 }
 
-/* Asi no funciona correctamente.....??
-
-.card1, .card2, .card3 {
-  height: 400px;
-  width: 350px;
-
-}
-
-*/
-
-/* Porque así no funciona?
-h3 {
-  font-family: Montserrat;
-}
-
-*/
-
 p {
   font-family: Nunito;
   font-size: 14px;
 }
 
-.card1 {
+.card {
   height: 400px;
   width: 350px;
   border-style: solid;
 }
 
-.titulo_card1 {
+.titulo_card {
   font-family: Montserrat;
   margin-bottom: 5px;
 }
 
-.cuerpo_card1 {
-  padding: 20px;
-}
-
-.card2 {
-  height: 400px;
-  width: 350px;
-  border-style: solid;
-}
-
-.titulo_card2 {
-  font-family: Montserrat;
-  margin-bottom: 5px;
-}
-
-.cuerpo_card2 {
-  padding: 20px;
-}
-
-.card3 {
-  height: 400px;
-  width: 350px;
-  border-style: solid;
-}
-
-.titulo_card3 {
-  font-family: Montserrat;
-  margin-bottom: 5px;
-}
-
-.cuerpo_card3 {
+.cuerpo_card {
   padding: 20px;
 }
 
