@@ -13,9 +13,14 @@
   background-size: cover;
 }
 
+h2, h3 {
+  font-family: Montserrat;
+}
+
 img {
   height: 400px;
   width: 100%;
+  border-radius: 8px;
 }
 
 .navbar {
@@ -37,27 +42,40 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  box-sizing: border-box;
   padding: 30px;
-}
 
-p {
-  font-family: Nunito;
-  font-size: 14px;
 }
 
 .card {
   height: 400px;
   width: 350px;
   border-style: solid;
+  border-radius: 8px;
 }
 
-.titulo_card {
-  font-family: Montserrat;
-  margin-bottom: 5px;
-}
 
 .cuerpo_card {
   padding: 20px;
+}
+
+.titulo_card {
+  font-weight: bold;
+}
+
+
+p {
+  font-family: Nunito;
+  font-size: 14px;
+}
+
+.button_card {
+  display: inline-block;
+  align-self: flex-end;
+  font-family: Nunito;
+  margin-right: 8px;
+  background-color: #2F4F4F;
+  color: #ffff;
 }
 
 /* No entiendo bien el uso de transform: translate - Duda para Enric*/
@@ -85,9 +103,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 60px;
   height: 200px;
   width: 100%;
   background-color: #2f4f4f;
   font-family: Nunito;
   color: #fff;
+  box-sizing: border-box;
 }
