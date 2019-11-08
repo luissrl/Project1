@@ -13,7 +13,8 @@
   background-size: cover;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: Montserrat;
 }
 
@@ -32,24 +33,31 @@ img {
   background-color: purple;
 }
 
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    height: 200px;
+  }
+}
+
 .nav_element {
   font-family: Nunito;
   color: #fff;
 }
 
-
 .container {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   box-sizing: border-box;
   padding: 30px;
-
 }
 
 .card {
   height: 400px;
   width: 350px;
+  margin-bottom: 40px;
   border-style: solid;
   border-radius: 8px;
 }
@@ -63,19 +71,23 @@ img {
   margin-bottom: 10px;
 }
 
-
 p {
   font-family: Nunito;
   font-size: 14px;
 }
 
+.buttons_container {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
 .boton {
   display: inline-flex;
   align-content: flex-end;
   padding: 8px;
   font-family: Nunito;
   border-radius: 6px;
-  background-color: #2F4F4F;
+  background-color: #2f4f4f;
   color: #ffff;
 }
 
